@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #add8e6; /* Azzurro */
+}
+
+.button-container {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px; /* Spaziatura tra i pulsanti */
+}body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Allinea gli elementi al centro orizzontalmente */
+    justify-content: center; /* Centra verticalmente */
+    height: 100vh; /* Imposta l'altezza del corpo per coprire l'intera finestra */
+    margin: 0; /* Rimuovi il margine predefinito */
+}
+
+.image-container {
+    margin-top: 20px; /* Aggiungi uno spazio sopra l'immagine */
+}
+
+#Image {
+    display: none; /* Nascondi l'immagine inizialmente */
+}
+
+
+button:hover {
+    background-color: rgba(0, 139, 116, 0.637);
+}
+
+#counter {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
