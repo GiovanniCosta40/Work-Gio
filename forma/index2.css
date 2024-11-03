@@ -1,0 +1,10 @@
+body { 
+    margin: 0; 
+    overflow: hidden; /* Nascondi eventuali barre di scorrimento */
+    background-color: #282c34; /* Colore di sfondo */
+}
+
+canvas { 
+    display: block; 
+}
+
