@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Componentes para Quadros Elétricos Industriais</title>
+    <link rel="stylesheet" href="cat.css">
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Componentes para Quadros Elétricos Industriais</h1>
+    </header>
+
+    <section id="catalogo">
+        <h2>Artigos Disponíveis</h2>
+        <div class="artigos">
+            <div class="artigo" id="disjuntor" draggable="true" data-preco="50" data-descricao="Disjuntor Termomagnético - Protege o circuito contra sobrecargas e curtos-circuitos. Preço: 50 € por unidade. Disponível em diversas correntes nominais (ex.: 6 A, 10 A, 32 A). Curvas de atuação (B, C, D).">Disjuntor (Termomagnético)</div>
+            <div class="artigo" id="disjuntor-diferencial" draggable="true" data-preco="80" data-descricao="Disjuntor Diferencial - Protege contra fugas de corrente para a terra, evitando choques elétricos. Preço: 80 € por unidade. Sensibilidade variável (ex.: 30 mA, 300 mA) e número de polos.">Disjuntor Diferencial</div>
+            <div class="artigo" id="contator" draggable="true" data-preco="70" data-descricao="Contator - Componente eletromecânico para controlar a ligação e desligamento de circuitos de potência. Preço: 70 € por unidade. Corrente de contato e tensão da bobina variável.">Contator</div>
+            <div class="artigo" id="rele-seguranca" draggable="true" data-preco="200" data-descricao="Relé de Segurança - Usado em circuitos de segurança para parada segura em caso de emergência. Preço: 200 €. Certificado para segurança (ISO 13849-1).">Relé de Segurança</div>
+            <div class="artigo" id="plc" draggable="true" data-preco="600" data-descricao="PLC - Dispositivo de controle lógico programável para automatizar processos industriais. Preço: 600 € para o modelo básico Siemens S7-1200.">PLC</div>
+            <div class="artigo" id="variador-frequencia" draggable="true" data-preco="500" data-descricao="Variador de Frequência - Regula a velocidade de um motor assíncrono trifásico. Preço: 500 € por unidade, com variações conforme a potência.">Variador de Frequência</div>
+            <div class="artigo" id="transformador-isolamento" draggable="true" data-preco="100" data-descricao="Transformador de Isolamento - Converte a tensão (ex.: 230V para 24V). Preço: 100 € para transformadores de baixa potência (100-200 VA).">Transformador de Isolamento</div>
+            <div class="artigo" id="fonte-alimentacao" draggable="true" data-preco="50" data-descricao="Fonte de Alimentação Chaveada - Fornece tensão contínua estabilizada (ex.: 24V DC). Preço: 50 € para modelos com diferentes potências de saída.">Fonte de Alimentação Chaveada</div>
+            <div class="artigo" id="fusivel" draggable="true" data-preco="5" data-descricao="Fusível de Proteção - Elemento de proteção contra sobrecargas. Preço: 5 € por fusível, com variação de custo conforme corrente nominal.">Fusível de Proteção</div>
+            <div class="artigo" id="termostato" draggable="true" data-preco="50" data-descricao="Termostato - Usado para monitorar a temperatura interna do quadro. Preço: 50 €, com variações de precisão e compatibilidade.">Termostato ou Sonda de Temperatura</div>
+        </div>
+    </section>
+
+    <section id="cestino">
+        <h2>Cesto de Compras</h2>
+        <p>Arraste aqui os artigos que deseja adicionar ao cesto de compras.</p>
+        <div id="total" style="font-weight: bold;">Total: 0 €</div>
+        <button id="finaliza-compra">Finaliza Compra</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Catálogo Quadros Elétricos Industriais</p>
+    </footer>
+
+    <script src="cat.js"></script>
+</body>
+</html>
+
+
+
+
